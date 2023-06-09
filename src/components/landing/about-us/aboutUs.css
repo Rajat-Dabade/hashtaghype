@@ -1,0 +1,59 @@
+.AboutUs {
+    background: #F17322;
+}
+
+
+.AboutUs__tagline {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.AboutUs__tagline-img {
+    width: 1110px;
+    height: 52px;
+}
+
+.AboutUs__hypelogo {
+    position: absolute;
+    top: 84px;
+    left: 528px;
+}
+
+.AboutUs__content {
+    background-image: url('../../../assets/about-us.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 507px;
+}
+
+.AboutUs__content p:nth-child(1) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22.6623px;
+    line-height: 167.52%;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: justify;
+    letter-spacing: 0.054em;
+    color: #114C5C;
+    padding: 44px 134px;
+}
+
+.AboutUs__content p:nth-child(2) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 142.121px;
+    line-height: 158.02%;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: justify;
+    letter-spacing: 0.054em;
+    color: #F17322;
+    padding-left: 100px;
+}

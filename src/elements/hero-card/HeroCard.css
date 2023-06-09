@@ -1,0 +1,48 @@
+.HeroCard {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: max-content;
+}
+
+.HeroCard__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26.6532px;
+    line-height: 150%;
+    /* or 40px */
+
+    letter-spacing: -0.011em;
+    text-transform: capitalize;
+
+    color: #114C5C;
+}
+
+.HeroCard__count {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53.1167px;
+    line-height: 115%;
+    /* or 61px */
+
+    letter-spacing: -0.011em;
+    text-transform: capitalize;
+
+    color: #F5F3F2;
+}
+
+.HeroCard__count-plus {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53.1167px;
+    line-height: 115%;
+    /* or 61px */
+
+    letter-spacing: -0.011em;
+    text-transform: capitalize;
+
+    color: #114C5C;
+}

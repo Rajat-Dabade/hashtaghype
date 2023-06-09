@@ -1,0 +1,35 @@
+.Client {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Client h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58.3923px;
+    line-height: 63px;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: justify;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #114C5C;
+}
+
+.Client p {
+    margin-top: 40px;
+    ont-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30.0074px;
+    line-height: 140.5%;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #114C5C;
+}

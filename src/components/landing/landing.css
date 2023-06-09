@@ -1,0 +1,77 @@
+.Landing {
+    height: 809px;
+    background-image: url('../../assets/hero-desktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.Landing__content {
+    position: relative;
+    height: 809px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+.Landing__content-heading {
+    margin-top: 60px;
+}
+
+.Landing__content-heading p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 88.06px;
+    line-height: 77px;
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: -0.011em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.Landing__subcontent {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Landing__subcontent p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27.65px;
+    line-height: 43px;
+    leading-trim: both;
+    text-edge: cap;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.Landing__subcontent img {
+    width: 68px;
+    height: 68px;
+}
+
+.Landing__content-cards {
+    display: flex;
+    gap: 86px;
+    margin-top: 90px;
+}
+
+.Landing__social {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+.Landing__social img {
+    margin-right: 17px;
+    width: 32px;
+    height: 32px;
+}

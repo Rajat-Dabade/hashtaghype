@@ -1,0 +1,170 @@
+.Footer {
+}
+
+.Footer__subsection {
+    background: #F17322;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    padding: 141px 0;
+}
+
+.Footer__contact {
+    flex-basis: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.Footer__contact-wrapper {
+
+}
+
+.Footer__contact-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Footer__contact-info p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.8617px;
+    line-height: 140.5%;
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.185em;
+    color: #114C5C;
+}
+
+.Footer__social {
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Footer__social-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.Footer__contact-btn {
+    flex-basis: 33%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Footer__contact-btn button {
+    position: relative;
+    background: transparent;
+    padding: 21px 89px 21px 44px;
+    border: 1px solid white;
+    border-radius: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 20px;
+    line-height: 140.5%;
+    leading-trim: both;
+    text-edge: cap;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.Footer__contact-btn button img {
+    position: absolute;
+    right: 26px;
+    top: 26px;
+}
+
+.Footer__main {
+    background: #262626;
+    /* height: 415px; */
+    display: flex;
+}
+
+.Footer__main-link {
+    flex-basis: 30%;
+    margin: 100px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Footer__main-link_page a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 245.5%;
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.Footer__main-form {
+    flex-basis: 40%;
+    margin: 100px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.Footer__main-form_content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Footer__main-form_content input[type="text"] {
+    padding: 22px;
+    border-radius: 14px;
+    background: #404040;
+    border: none;
+}
+
+.Footer__main-form_content input[type="checkbox"] {
+    width: 43px;
+    height: 43px;
+    background: transparent;
+}
+
+.Footer__main-form_content button {
+    padding: 15px 0;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    background: #F07322;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.Footer__main-form-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Footer__main-form-checkbox span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.2894px;
+    line-height: 27px;
+    leading-trim: both;
+    text-edge: cap;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
