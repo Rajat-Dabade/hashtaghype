@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import PropTypes from 'prop-types'
 import AboutUs from './about-us/aboutUs'
 import OurService from './our-services/ourService'
 import HeroCard from '../../elements/hero-card/HeroCard'
@@ -12,7 +14,12 @@ import facebookIcon from '../../assets/facebook.png'
 
 import './Landing.css'
 
-const Landing = () => {
+const Landing = (props) => {
+
+  useEffect(() => {
+    props.setNavbar(1)
+  }, [props])
+
   return (
     <div className="Landing__main">
       <div className="Landing">
@@ -44,6 +51,10 @@ const Landing = () => {
       <Footer />
     </div>
   )
+}
+
+Landing.propTypes = {
+  setNavbar: PropTypes.func.isRequired
 }
 
 export default Landing

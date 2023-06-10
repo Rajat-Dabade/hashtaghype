@@ -1,29 +1,36 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-
-import brandLogo from '../../assets/brand-nav.png'
-import HamburgerMenu from '../../assets/hamburger-menu.png'
-import HamBurgerMenuHover from '../../assets/hamburger-menu-hover.png'
-
-import './navbar.css'
 import NavbarDialog from './navbar-dialog'
 
-const Navbar = () => {
+import brandLogo from '../../assets/brand-nav-dark.png'
+import HamBurgerMenu from '../../assets/hamburger-menu.png'
+import HamBurgerMenuHover from '../../assets/hamburger-menu-hover.png'
+import Cross from '../../assets/cross.png'
+import CrossHover from '../../assets/cross-hover.png'
+
+import './navbar.css'
+
+const NavbarDark = () => {
 
   const [open, setOpen] = useState(false)
-  const [imgHamBurgerSrc, setImgHamBurgerSrc] = useState(HamburgerMenu)
+  const [imgCrossSrc, setImgCrossSrc] = useState(Cross)
+  const [imgHamBurgerSrc, setImgHamBurgerSrc] = useState(HamBurgerMenuHover)
   const navigate = useNavigate()
 
+
   const navbarMenuOpenHandler = () => {
+    console.log("Clicked")
     setOpen(!open)
   }
 
   const handleMouseOverEvent = () => {
-    setImgHamBurgerSrc(HamBurgerMenuHover)
+    setImgCrossSrc(CrossHover)
+    setImgHamBurgerSrc(HamBurgerMenu)
   }
 
   const handleMouseOutEvent = () => {
-    setImgHamBurgerSrc(HamburgerMenu)
+    setImgCrossSrc(Cross)
+    setImgHamBurgerSrc(HamBurgerMenuHover)
   }
 
   const navigateToHomePage = () => {
@@ -54,4 +61,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavbarDark

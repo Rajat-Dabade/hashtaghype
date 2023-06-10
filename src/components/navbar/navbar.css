@@ -1,8 +1,46 @@
 .Navbar {
     position: fixed;
     width: 100%;
+    z-index: 100;
+}
+
+.Navbar__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 70px;
+}
+
+.Navbar__close {
+}
+
+.Navbar__menu {
+    width: 100vw;
+    height: 100vh;
+    background: #114C5C;
+}
+
+.Navbar__menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar__menu-item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 56.7521px;
+    line-height: 136px;
+    text-edge: cap;
+    text-align: center;
+    letter-spacing: -0.011em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.Navbar__menu-item:hover {
+    color: #F17322;
 }

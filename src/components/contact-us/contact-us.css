@@ -1,0 +1,211 @@
+.ContactUs {
+    background: #D3D4D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 0 0;
+}
+
+.ContactUs__head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+
+.ContactUs__head p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 89.7471px;
+    line-height: 151.02%;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    text-transform: capitalize;
+    color: #114C5C;
+}
+
+.ContactUS__head img {
+    width: 612px;
+    height: 57px;
+}
+
+.ContactUs__content {
+    margin: 120px 0;
+    display: flex;
+    gap: 120px;
+}
+
+.ContactUs__info p:nth-child(1) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 41.808px;
+    line-height: 151.02%;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    text-transform: capitalize;
+    color: #114C5C;
+}
+
+.ContactUs__info p:nth-child(2) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20.1277px;
+    line-height: 39px;
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.084em;
+    text-transform: capitalize;
+    color: #114C5C;
+}
+
+
+.ContactUs__info p:nth-child(4) {
+    margin-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28.8442px;
+    line-height: 43px;
+    text-transform: capitalize;
+    color: #114C5C;
+}
+
+.ContactUs__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 520px;
+}
+
+.ContactUs__form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactUs__form-input label, .ContactUs__form-phone label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.8502px;
+    line-height: 151.02%;
+    leading-trim: both;
+    text-edge: cap;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.ContactUs__form-input input {
+    height: 54.49px;
+    border: 1px solid #114C5C;
+    background: transparent;
+    padding: 20px;
+}
+
+.ContactUs__form-input select {
+    height: 54px;
+    background: transparent;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20.8502px;
+    line-height: 151.02%;
+    text-transform: capitalize;
+    color: #9E9E9F;
+
+}
+
+.ContactUs__form-phone_content {
+    display: flex;
+    gap: 15px;
+}
+
+.ContactUs__form-phone_content select {
+    width: 56px;
+    height:54px;
+    border: 1px solid #114C5C;
+    background: transparent;
+    padding: 5px;
+}
+
+.ContactUs__form-phone_content input {
+    width: 447px;
+    height: 54px;
+    border: 1px solid #114C5C;
+    background: transparent;
+    padding: 20px;
+}
+
+.ContactUs__card {
+
+}
+
+.ContactUs__card-row {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.ContactUs__card-item {
+    width: 155px;
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #114C5C;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.8502px;
+    line-height: 120%;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    text-transform: capitalize;
+    color: #9E9E9F;
+    cursor: pointer;
+}
+
+.ContactUs__card-item:hover {
+    background: #F17322;
+    color: #114C5C;
+}
+
+.ContactUs__form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.ContactUs__form-btn button {
+    padding: 10px 70px;
+    background: #114C5C;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8374px;
+    line-height: 239.5%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #D3D4D9;
+}
+
+.ContactUs__form-btn button:hover {
+    background: #F17322;
+    color: #114C5C;
+}
+
+.ContactUs__footer {
+    width: 100%;
+}

@@ -71,7 +71,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
 
+      <div className="Footer__copywrite">
+        <hr/>
+        <p>©2023 hashtag Hype. All rights reserved.</p>
       </div>
 
     </div>
